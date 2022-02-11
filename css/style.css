@@ -1,0 +1,150 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	
+	color: 000;
+	font-size: 16px;
+}
+a {
+text-decoration: none;}
+h1, h2, h3, h4, h5, h6	{
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+ul, li 	{
+display: block;
+margin: 0;
+padding: 0;
+}
+
+.container {
+width: 1170px;
+margin: 0 auto; /*позиционирование по центру*/
+}
+
+.header {
+	background: url('../img/header-bg@3x.png') no-repeat center top / cover;
+}
+
+header a{
+	color: #fff;
+}
+.logo {
+	margin-right: 69px;
+}
+
+.menu {
+	display: flex; /*все элементы внутри объекта выравниваются в одну линию*/
+}
+
+.menu li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+
+}
+
+.menu li{
+	margin-right: 40px;
+}
+.tel	{
+	font-size: 17px;
+	text-transform: none;
+	margin-left: auto;
+	letter-spacing: 0.1em;
+}
+.nav{
+	display: flex; /*выравнивание в 1 строку*/
+	align-items: center; /*выраванивание внутри контейнера по горизонтали*/
+	padding-top: 57px;
+}
+
+.offer	{
+	text-transform: uppercase;
+	margin-top: 216px;
+	color: #fff;
+}
+.offer p{
+	font-size: 30px;
+	letter-spacing: 0.1em;
+}
+.offer h1 {
+	font-size: 100px;
+	letter-spacing: 0.02em;
+	margin-bottom: 19px;
+	margin-top: -9px;
+}
+.btn {
+	display: block;
+	font-size: 17px;
+	text-align: center;
+	border:1px solid #fff;
+	padding: 17px 47px;
+	letter-spacing: 0.1em;
+	width: 238px;
+
+}
+
+.btn:hover {
+	background: #fff;
+    color: #000;
+}
+
+.container{
+margin-top: 113px;
+}
+
+.description{
+margin-top:56px;
+display: flex;
+justify-content: space-between;}
+
+
+
+.description p{
+font-family: Open Sans;
+margin-top: 19px;
+font-weight: 400;
+text-align: justify;
+line-height: 1.62em;
+}
+
+.desc-left, .desc-right{
+	width: 567px;
+}
+
+h2{
+	font-size: 50px;
+}
+
+h3 {
+font-size: 25px;
+}
+
+.gallery {
+	margin-top: 67px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.gallery img {
+	transition: all 0.5s ease;
+}
+
+.gallery img:hover {
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+	transform: scale(	1.1);
+}
+
+.footer-text {
+	font-size: 15px;
+	font-family: "Open Sans";
+	display: flex;
+	padding: 114px 0;
+ }
+
+ .footer-text p{
+ 	margin-right:55px}
